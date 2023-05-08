@@ -18,6 +18,7 @@ shell排序法：
 比较次数：O(nlogn)
 空间复杂度：O(1)
 稳定性：不稳定
+适用情况：n较大，无序，记录数较多
 */
 void shellSort(int *arr, int len)
 {
