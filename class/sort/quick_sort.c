@@ -23,8 +23,10 @@ void quickSort(int *arr, int left, int right)
         i = left;
         j = right;
         pivot = arr[left];
+        // 一趟快速排序
         while (i < j)
         {
+            // 从右向左找第一个小于 pivot 的数
             while (i < j && arr[j] >= pivot)
             {
                 j--;
@@ -33,6 +35,7 @@ void quickSort(int *arr, int left, int right)
             {
                 arr[i++] = arr[j];
             }
+            // 从左向右找第一个大于等于 pivot 的数
             while (i < j && arr[i] <= pivot)
             {
                 i++;
@@ -42,16 +45,39 @@ void quickSort(int *arr, int left, int right)
                 arr[j--] = arr[i];
             }
         }
+        // 将 pivot 放到最终位置
         arr[i] = pivot;
+        // 递归调用
         quickSort(arr, left, i - 1);
         quickSort(arr, i + 1, right);
     }
 }
 
+void QSort(int arr[], int low, int high){
+    int i, j, temp;
+    if(low >= high){
+        return;
+    }
+
+    i = low;
+    j = high;
+    temp = arr[i];
+    while(i < j){
+        while(i<j && arr[j] > temp) j--;
+        if(i<j) arr[i++] = arr[j];
+
+        while(i<j && arr[i] <= temp) i++;
+        if(i<j) arr[j--] = arr[i];
+    }
+    arr[i] = temp;
+    QSort(arr, low, --j);
+    QSort(arr, ++i, high);
+}
 int main(){
     int arr[] = {3, 1, 5, 7, 2, 4, 9, 6, 10, 8};
     int len = sizeof(arr) / sizeof(arr[0]);
-    quickSort(arr, 0, len - 1);
+    // quickSort(arr, 0, len - 1);
+    QSort(arr, 0, len-1);
     for (int i = 0; i < len; i++)
     {
         printf("%d ", arr[i]);

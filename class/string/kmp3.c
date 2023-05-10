@@ -75,7 +75,7 @@ int Find(char*s, char*p){
 int main()
 {
     char s[] = "aaabcaabcabcda";
-    char p[] = "abcabcd";
+    char p[] = "xyzxxyzx";
     int res = Find(s, p);
     printf("%d\n", res);
     return 0;

@@ -16,28 +16,37 @@
 空间复杂度：O(1)
 稳定性：稳定
 */
+int cnt = 0;
 void bubbleSort(int *arr, int len)
 {
     int i, j, temp;
+    int not_change = 1; // 用于优化，如果一趟下来没有发生交换，说明已经有序，直接退出
     for (i = 0; i < len - 1; i++)
     {
+        not_change = 1;
         for (j = 0; j < len - 1 - i; j++)
         {
+            cnt++;
             if (arr[j] > arr[j + 1])
             {
                 // 交换
                 temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
+                not_change = 0;
             }
         }
+        if (not_change)
+            break;
     }
 }
 
 // 测试
 int main()
 {
-    int arr[] = {3, 1, 5, 7, 2, 4, 9, 6, 10, 8};
+    // int arr[] = {3, 1, 5, 7, 2, 4, 9, 6, 10, 8};
+    int arr[] = {1, 2,3,4,5,6,7};
+    // int arr[] = {7,6,5,4,3,2,1}; 
     int len = sizeof(arr) / sizeof(arr[0]);
     bubbleSort(arr, len);
     for (int i = 0; i < len; i++)
@@ -45,7 +54,7 @@ int main()
         printf("%d ", arr[i]);
     }
     printf("\n");
-
+    printf("cnt: %d\n",cnt);
     // system("pause");
     return 0;
 }
