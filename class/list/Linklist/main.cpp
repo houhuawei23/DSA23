@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "LinkList.h"
+/*
+g++ .\main.cpp .\LinkList.cpp
+cat .\input1.txt | .\a.exe   
+cat .\input2.txt | .\a.exe   
+*/
 #pragma warning(disable:4996)
 
 int main()

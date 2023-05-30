@@ -1,0 +1,25 @@
+5
+
+in 89
+
+in 34
+
+out
+
+out
+
+out
+
+in 1
+
+in 2
+
+in 3
+
+in 4
+
+in 5
+
+in 6
+
+end
