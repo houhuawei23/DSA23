@@ -72,11 +72,11 @@ void Shuffle(int *arr, int n)
 // test
 int main()
 {
-    int arr[] = {2,3,7,6,2,3,5522,3662,154,875,33,452,21};
+    int arr[] = {2, 3, 7, 6, 2, 3, 5522, 3662, 154, 875, 33, 452, 21};
     int len = 13;
 
     Shuffle(arr, len);
     int k = 5;
     int res = QuickSelect(arr, 0, len - 1, k);
     cout << "The " << k << "th smallest element is " << res << endl;
-}   
+}

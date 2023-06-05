@@ -53,31 +53,39 @@ void quickSort(int *arr, int left, int right)
     }
 }
 
-void QSort(int arr[], int low, int high){
+void QSort(int arr[], int low, int high)
+{
     int i, j, temp;
-    if(low >= high){
+    if (low >= high)
+    {
         return;
     }
 
     i = low;
     j = high;
     temp = arr[i];
-    while(i < j){
-        while(i<j && arr[j] > temp) j--;
-        if(i<j) arr[i++] = arr[j];
+    while (i < j)
+    {
+        while (i < j && arr[j] > temp)
+            j--;
+        if (i < j)
+            arr[i++] = arr[j];
 
-        while(i<j && arr[i] <= temp) i++;
-        if(i<j) arr[j--] = arr[i];
+        while (i < j && arr[i] <= temp)
+            i++;
+        if (i < j)
+            arr[j--] = arr[i];
     }
     arr[i] = temp;
     QSort(arr, low, --j);
     QSort(arr, ++i, high);
 }
-int main(){
+int main()
+{
     int arr[] = {3, 1, 5, 7, 2, 4, 9, 6, 10, 8};
     int len = sizeof(arr) / sizeof(arr[0]);
     // quickSort(arr, 0, len - 1);
-    QSort(arr, 0, len-1);
+    QSort(arr, 0, len - 1);
     for (int i = 0; i < len; i++)
     {
         printf("%d ", arr[i]);
