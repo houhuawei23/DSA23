@@ -22,9 +22,7 @@
         "halfedge.h": "c",
         "vertex.h": "c",
         "ctype.h": "c",
-        "stdio.h": "c",
-        "cstring": "cpp",
-        "ostream": "cpp",
-        "iostream": "cpp"
-    }
+        "stdio.h": "c"
+    },
+    "cmake.configureOnOpen": true
 }
