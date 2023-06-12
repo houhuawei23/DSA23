@@ -23,7 +23,8 @@
         "vertex.h": "c",
         "ctype.h": "c",
         "stdio.h": "c",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "queue": "cpp"
     },
     "cmake.configureOnOpen": true
 }
