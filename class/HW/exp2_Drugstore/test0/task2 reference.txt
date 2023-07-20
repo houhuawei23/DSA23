@@ -1,0 +1,10 @@
+data1:45.5
+data2:44.5
+data3:45.5
+data4:42.5
+data5:41.5
+data6:41
+data7:36.5
+data8:32
+data9:6.0688
+data10:-12.2548

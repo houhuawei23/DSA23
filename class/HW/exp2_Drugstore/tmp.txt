@@ -1,0 +1,368 @@
+medicine_path: ./medicine.txt
+strategy_path: ./strategy.txt
+delete_path: delete.txt
+day: 0
+medicine_id: 6, medicine_delta_price: 2
+medicine_id: 25, medicine_delta_price: 2
+medicine_id: 46, medicine_delta_price: 6
+medicine_id: 27, medicine_delta_price: 0
+medicine_id: 21, medicine_delta_price: -1
+medicine_id: 15, medicine_delta_price: 0
+medicine_id: 18, medicine_delta_price: 6
+medicine_id: 38, medicine_delta_price: 2
+medicine_id: 22, medicine_delta_price: -1
+medicine_id: 36, medicine_delta_price: -1
+day: 1
+medicine_id: 32, medicine_delta_price: -1
+medicine_id: 28, medicine_delta_price: 0
+medicine_id: 45, medicine_delta_price: 6
+medicine_id: 30, medicine_delta_price: 2
+medicine_id: 23, medicine_delta_price: 0
+medicine_id: 16, medicine_delta_price: 6
+medicine_id: 12, medicine_delta_price: 0
+medicine_id: 34, medicine_delta_price: 0
+medicine_id: 25, medicine_delta_price: -1
+medicine_id: -1, medicine_delta_price: 6
+day: 2
+medicine_id: 20, medicine_delta_price: 6
+medicine_id: 38, medicine_delta_price: 2
+medicine_id: 44, medicine_delta_price: 0
+medicine_id: 6, medicine_delta_price: 6
+medicine_id: 43, medicine_delta_price: 4
+medicine_id: 19, medicine_delta_price: 6
+medicine_id: 5, medicine_delta_price: 0
+medicine_id: 47, medicine_delta_price: 0
+medicine_id: 26, medicine_delta_price: 4
+medicine_id: 9, medicine_delta_price: 0
+day: 3
+medicine_id: 41, medicine_delta_price: 6
+medicine_id: 21, medicine_delta_price: -1
+medicine_id: 11, medicine_delta_price: -1
+medicine_id: 17, medicine_delta_price: -1
+medicine_id: 15, medicine_delta_price: -1
+medicine_id: 25, medicine_delta_price: 0
+medicine_id: 6, medicine_delta_price: 2
+medicine_id: 31, medicine_delta_price: 2
+medicine_id: 43, medicine_delta_price: -1
+medicine_id: 37, medicine_delta_price: 2
+day: 4
+medicine_id: 18, medicine_delta_price: -1
+medicine_id: 37, medicine_delta_price: 4
+medicine_id: 39, medicine_delta_price: -1
+medicine_id: 49, medicine_delta_price: 0
+medicine_id: 38, medicine_delta_price: -1
+medicine_id: 19, medicine_delta_price: 2
+medicine_id: 15, medicine_delta_price: 0
+medicine_id: 8, medicine_delta_price: 0
+medicine_id: 21, medicine_delta_price: 0
+medicine_id: 12, medicine_delta_price: 6
+day: 5
+medicine_id: 29, medicine_delta_price: 0
+medicine_id: 19, medicine_delta_price: -1
+medicine_id: 33, medicine_delta_price: -1
+medicine_id: 4, medicine_delta_price: 2
+medicine_id: 25, medicine_delta_price: -1
+medicine_id: 26, medicine_delta_price: 6
+medicine_id: 2, medicine_delta_price: 2
+medicine_id: -1, medicine_delta_price: 6
+medicine_id: -1, medicine_delta_price: 6
+medicine_id: -1, medicine_delta_price: 6
+day: 6
+medicine_id: 16, medicine_delta_price: 4
+medicine_id: 23, medicine_delta_price: -1
+medicine_id: 4, medicine_delta_price: -1
+medicine_id: 46, medicine_delta_price: 0
+medicine_id: 21, medicine_delta_price: 4
+medicine_id: 7, medicine_delta_price: 0
+medicine_id: 38, medicine_delta_price: 0
+medicine_id: 0, medicine_delta_price: -1
+medicine_id: 6, medicine_delta_price: 2
+medicine_id: 5, medicine_delta_price: 6
+day: 7
+medicine_id: 29, medicine_delta_price: -1
+medicine_id: 35, medicine_delta_price: -1
+medicine_id: 4, medicine_delta_price: 0
+medicine_id: 40, medicine_delta_price: 6
+medicine_id: 14, medicine_delta_price: -1
+medicine_id: 30, medicine_delta_price: 0
+medicine_id: -1, medicine_delta_price: 6
+medicine_id: -1, medicine_delta_price: 6
+medicine_id: -1, medicine_delta_price: 6
+medicine_id: -1, medicine_delta_price: 6
+day: 8
+medicine_id: 48, medicine_delta_price: 0
+medicine_id: 15, medicine_delta_price: 4
+medicine_id: 49, medicine_delta_price: 0
+medicine_id: 45, medicine_delta_price: 2
+medicine_id: 37, medicine_delta_price: 0
+medicine_id: 13, medicine_delta_price: 4
+medicine_id: 3, medicine_delta_price: 0
+medicine_id: 12, medicine_delta_price: 2
+medicine_id: 6, medicine_delta_price: -1
+medicine_id: 26, medicine_delta_price: 0
+day: 9
+medicine_id: 38, medicine_delta_price: 4
+medicine_id: 16, medicine_delta_price: -1
+medicine_id: 12, medicine_delta_price: 0
+medicine_id: 42, medicine_delta_price: 6
+medicine_id: 3, medicine_delta_price: 4
+medicine_id: 5, medicine_delta_price: 6
+medicine_id: 13, medicine_delta_price: 0
+medicine_id: 10, medicine_delta_price: 0
+medicine_id: -1, medicine_delta_price: 6
+medicine_id: -1, medicine_delta_price: 6
+day: 4, medicine_id: 1
+day: 6, medicine_id: 0
+day: 6, medicine_id: 2
+Simulation day: 0
+with 10 medicine
+after sorted: medicine in store: 
+id: 22, status: 1, warranty: 11
+  origin_price: 28.5394, price: 27.5394
+id: 38, status: 1, warranty: 15
+  origin_price: 26.6216, price: 28.6216
+id: 6, status: 1, warranty: 13
+  origin_price: 26.0378, price: 28.0378
+id: 21, status: 1, warranty: 12
+  origin_price: 29.3655, price: 28.3655
+id: 15, status: 1, warranty: 12
+  origin_price: 28.4054, price: 28.4054
+id: 18, status: 1, warranty: 12
+  origin_price: 26.5142, price: 32.5142
+id: 25, status: 1, warranty: 12
+  origin_price: 29.5688, price: 31.5688
+id: 27, status: 1, warranty: 13
+  origin_price: 20.1871, price: 20.1871
+id: 36, status: 1, warranty: 14
+  origin_price: 24.2384, price: 23.2384
+id: 46, status: 1, warranty: 11
+  origin_price: 24.1069, price: 30.1069
+medicine 22 has been sold
+medicine 38 has been sold
+medicine 6 has been sold
+end of day
+
+Simulation day: 1
+not valid medicine id
+with 9 medicine
+after sorted: medicine in store: 
+id: 12, status: 1, warranty: 13
+  origin_price: 27.253, price: 27.253
+id: 16, status: 1, warranty: 14
+  origin_price: 25.0127, price: 31.0127
+id: 23, status: 1, warranty: 12
+  origin_price: 26.3301, price: 26.3301
+id: 25, status: 1, warranty: 11
+  origin_price: 29.5688, price: 28.5688
+id: 28, status: 1, warranty: 13
+  origin_price: 23.3076, price: 23.3076
+id: 30, status: 1, warranty: 10
+  origin_price: 28.4298, price: 30.4298
+id: 32, status: 1, warranty: 10
+  origin_price: 25.819, price: 24.819
+id: 34, status: 1, warranty: 12
+  origin_price: 25.3475, price: 25.3475
+id: 45, status: 1, warranty: 13
+  origin_price: 23.6314, price: 29.6314
+medicine 12 has been sold
+medicine 16 has been sold
+medicine 23 has been sold
+end of day
+
+Simulation day: 2
+Warning: medicine 38 has been sold
+Warning: medicine 6 has been sold
+with 8 medicine
+after sorted: medicine in store: 
+id: 5, status: 1, warranty: 13
+  origin_price: 26.3942, price: 26.3942
+id: 9, status: 1, warranty: 13
+  origin_price: 25.7662, price: 25.7662
+id: 19, status: 1, warranty: 12
+  origin_price: 25.3566, price: 31.3566
+id: 20, status: 1, warranty: 10
+  origin_price: 29.8569, price: 35.8569
+id: 26, status: 1, warranty: 13
+  origin_price: 28.8607, price: 32.8607
+id: 43, status: 1, warranty: 9
+  origin_price: 26.0945, price: 30.0945
+id: 44, status: 1, warranty: 12
+  origin_price: 25.2382, price: 25.2382
+id: 47, status: 1, warranty: 13
+  origin_price: 23.187, price: 23.187
+medicine 5 has been sold
+medicine 9 has been sold
+medicine 19 has been sold
+end of day
+
+Simulation day: 3
+Warning: medicine 6 has been sold
+with 9 medicine
+after sorted: medicine in store: 
+id: 11, status: 1, warranty: 8
+  origin_price: 25.5708, price: 24.5708
+id: 15, status: 1, warranty: 9
+  origin_price: 28.4054, price: 27.4054
+id: 17, status: 1, warranty: 8
+  origin_price: 28.1924, price: 27.1924
+id: 21, status: 1, warranty: 9
+  origin_price: 29.3655, price: 28.3655
+id: 41, status: 1, warranty: 9
+  origin_price: 23.0732, price: 29.0732
+id: 25, status: 1, warranty: 9
+  origin_price: 29.5688, price: 29.5688
+id: 31, status: 1, warranty: 12
+  origin_price: 28.0667, price: 30.0667
+id: 37, status: 1, warranty: 9
+  origin_price: 26.025, price: 28.025
+id: 43, status: 1, warranty: 8
+  origin_price: 26.0945, price: 25.0945
+medicine 11 has been sold
+medicine 15 has been sold
+medicine 17 has been sold
+end of day
+
+Simulation day: 4
+Delete.txt: medicine 1 has been deleted
+Warning: medicine 38 has been sold
+Warning: medicine 19 has been sold
+Warning: medicine 15 has been sold
+Warning: medicine 12 has been sold
+with 6 medicine
+after sorted: medicine in store: 
+id: 8, status: 1, warranty: 9
+  origin_price: 23.7013, price: 23.7013
+id: 18, status: 1, warranty: 8
+  origin_price: 26.5142, price: 25.5142
+id: 21, status: 1, warranty: 8
+  origin_price: 29.3655, price: 29.3655
+id: 37, status: 1, warranty: 8
+  origin_price: 26.025, price: 30.025
+id: 39, status: 1, warranty: 10
+  origin_price: 20.499, price: 19.499
+id: 49, status: 1, warranty: 7
+  origin_price: 29.624, price: 29.624
+medicine 8 has been sold
+medicine 18 has been sold
+medicine 21 has been sold
+end of day
+
+Simulation day: 5
+Warning: medicine 19 has been sold
+not valid medicine id
+not valid medicine id
+not valid medicine id
+with 6 medicine
+after sorted: medicine in store: 
+id: 2, status: 1, warranty: 2
+  origin_price: 29.1574, price: 31.1574
+id: 4, status: 1, warranty: 9
+  origin_price: 28.5717, price: 30.5717
+id: 25, status: 1, warranty: 7
+  origin_price: 29.5688, price: 28.5688
+id: 26, status: 1, warranty: 10
+  origin_price: 28.8607, price: 34.8607
+id: 29, status: 1, warranty: 7
+  origin_price: 29.2462, price: 29.2462
+id: 33, status: 1, warranty: 9
+  origin_price: 28.2482, price: 27.2482
+medicine 2 has been sold
+medicine 4 has been sold
+medicine 25 has been sold
+end of day
+
+Simulation day: 6
+Delete.txt: medicine 0 has been deleted
+Delete.txt: medicine 2 has been deleted
+Warning: medicine 16 has been sold
+Warning: medicine 23 has been sold
+Warning: medicine 4 has been sold
+Warning: medicine 21 has been sold
+Warning: medicine 38 has been sold
+Warning: medicine 0 has been deleted
+Warning: medicine 6 has been sold
+Warning: medicine 5 has been sold
+with 2 medicine
+after sorted: medicine in store: 
+id: 7, status: 1, warranty: 7
+  origin_price: 23.8343, price: 23.8343
+id: 46, status: 1, warranty: 5
+  origin_price: 24.1069, price: 24.1069
+medicine 7 has been sold
+medicine 46 has been sold
+medicine 5 has been sold
+end of day
+
+Simulation day: 7
+Warning: medicine 4 has been sold
+not valid medicine id
+not valid medicine id
+not valid medicine id
+not valid medicine id
+with 5 medicine
+after sorted: medicine in store: 
+id: 14, status: 1, warranty: 6
+  origin_price: 28.4765, price: 27.4765
+id: 29, status: 1, warranty: 5
+  origin_price: 29.2462, price: 28.2462
+id: 35, status: 1, warranty: 8
+  origin_price: 27.9534, price: 26.9534
+id: 40, status: 1, warranty: 5
+  origin_price: 22.6408, price: 28.6408
+id: 30, status: 1, warranty: 4
+  origin_price: 28.4298, price: 28.4298
+medicine 14 has been sold
+medicine 29 has been sold
+medicine 35 has been sold
+end of day
+
+Simulation day: 8
+Warning: medicine 15 has been sold
+Warning: medicine 12 has been sold
+Warning: medicine 6 has been sold
+with 7 medicine
+after sorted: medicine in store: 
+id: 3, status: 1, warranty: 5
+  origin_price: 26.242, price: 26.242
+id: 13, status: 1, warranty: 3
+  origin_price: 26.0656, price: 30.0656
+id: 26, status: 1, warranty: 7
+  origin_price: 28.8607, price: 28.8607
+id: 37, status: 1, warranty: 4
+  origin_price: 26.025, price: 26.025
+id: 45, status: 1, warranty: 6
+  origin_price: 23.6314, price: 25.6314
+id: 48, status: 1, warranty: 7
+  origin_price: 21.2638, price: 21.2638
+id: 49, status: 1, warranty: 3
+  origin_price: 29.624, price: 29.624
+medicine 3 has been sold
+medicine 13 has been sold
+medicine 26 has been sold
+end of day
+
+Simulation day: 9
+Warning: medicine 38 has been sold
+Warning: medicine 16 has been sold
+Warning: medicine 12 has been sold
+Warning: medicine 3 has been sold
+Warning: medicine 5 has been sold
+Warning: medicine 13 has been sold
+not valid medicine id
+not valid medicine id
+with 2 medicine
+after sorted: medicine in store: 
+id: 10, status: 1, warranty: 5
+  origin_price: 27.5008, price: 27.5008
+id: 42, status: 1, warranty: 2
+  origin_price: 21.1759, price: 27.1759
+medicine 10 has been sold
+medicine 42 has been sold
+medicine 26 has been sold
+end of day
+
+g_profit: -95
+g_sale_price: 813
+g_purchase_price: 792
+g_warehouse_price: 32
+g_delete_expired_price: 84

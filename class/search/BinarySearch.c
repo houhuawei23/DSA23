@@ -11,7 +11,7 @@
 时间复杂度：O(logn)
 空间复杂度：O(1)
 */
-int BinarySearch(int *arr, int len, int key)
+int BinarySearch(int* arr, int len, int key)
 {
     int low = 0;
     int high = len - 1;
@@ -34,8 +34,8 @@ int BinarySearch(int *arr, int len, int key)
     }
 }
 
-int main(){
-    int arr[] = {1, 3, 5, 7, 9, 11, 13, 15};
+int main() {
+    int arr[] = { 1, 3, 5, 7, 9, 11, 13, 15 };
     int len = sizeof(arr) / sizeof(int);
     int key = 11;
     int index = BinarySearch(arr, len, key);

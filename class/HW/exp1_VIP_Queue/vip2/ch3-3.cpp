@@ -1,7 +1,7 @@
 #include "sim.h"
 /*
-g++ -g -Wall ./ch3-3.cpp -o ch3-3.exe
-cat in | ./ch3-3.exe
+g++ -g -Wall ./ch3-3.cpp -o ch3-3
+cat in | ./ch3-3
 */
 int main(void)
 {

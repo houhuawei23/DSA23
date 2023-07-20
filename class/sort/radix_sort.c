@@ -22,30 +22,30 @@
 
 
 */
-void radix_sort(int *a, int n){
+void radix_sort(int* a, int n) {
     int i, j, k, m, radix = 10;
     // count用于计数，bucket用于临时存储
-    int *count, *bucket;
-    count = (int *)malloc(sizeof(int) * radix);
-    bucket = (int *)malloc(sizeof(int) * n);
+    int* count, * bucket;
+    count = (int*)malloc(sizeof(int) * radix);
+    bucket = (int*)malloc(sizeof(int) * n);
     // 从低位到高位，依次对每一位进行计数排序
-    for(m = 1; m <= 1000; m *= 10){
-        for(i = 0; i < radix; i++){
+    for (m = 1; m <= 1000; m *= 10) {
+        for (i = 0; i < radix; i++) {
             count[i] = 0;
         }
-        for(i = 0; i < n; i++){
+        for (i = 0; i < n; i++) {
             k = (a[i] / m) % 10;
             count[k]++;
         }
-        for(i = 1; i < radix; i++){
+        for (i = 1; i < radix; i++) {
             count[i] += count[i - 1];
         }
-        for(i = n - 1; i >= 0; i--){
+        for (i = n - 1; i >= 0; i--) {
             k = (a[i] / m) % 10;
             bucket[count[k] - 1] = a[i];
             count[k]--;
         }
-        for(i = 0, j = 0; i < n; i++, j++){
+        for (i = 0, j = 0; i < n; i++, j++) {
             a[i] = bucket[j];
         }
     }
@@ -53,10 +53,10 @@ void radix_sort(int *a, int n){
     free(bucket);
 }
 
-int main(){
-    int a[10] = {73, 22, 93, 43, 55, 14, 28, 65, 39, 81};
+int main() {
+    int a[10] = { 73, 22, 93, 43, 55, 14, 28, 65, 39, 81 };
     radix_sort(a, 10);
-    for(int i = 0; i < 10; i++){
+    for (int i = 0; i < 10; i++) {
         printf("%d ", a[i]);
     }
     printf("\n");
